@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary SEO Meta Tags -->
+  <title>Keerthi Vasan S | Electronics & Communication Engineer Portfolio</title>
+  <meta name="description" content="Professional portfolio of Keerthi Vasan S, an Electronics and Communication Engineering student specializing in MATLAB, signal processing, and systems engineering.">
+  <meta name="keywords" content="Keerthi Vasan S, Electronics Engineer, ECE Student, MATLAB, FFT, Spectrum Analyzer, Portfolio, Engineering Student">
+  <meta name="author" content="Keerthi Vasan S">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Keerthi Vasan S | Electronics & Communication Engineer Portfolio">
+  <meta property="og:description" content="Explore my engineering projects, internships, and technical skills in ECE, programming, and MATLAB signal visualization.">
+  <meta property="og:image" content="profile.png">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Keerthi Vasan S | Electronics & Communication Engineer Portfolio">
+  <meta property="twitter:description" content="Explore my engineering projects, internships, and technical skills in ECE, programming, and MATLAB signal visualization.">
+  <meta property="twitter:image" content="profile.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <!-- ==========================================================================
+       HEADER / NAVBAR
+       ========================================================================== -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#hero" class="logo" id="logo-link">
+        <span class="logo-icon">KV</span>
+        <span>Keerthi Vasan</span>
+      </a>
+      
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#hero" class="nav-link active" id="nav-link-hero">Home</a>
+        <a href="#about" class="nav-link" id="nav-link-about">About</a>
+        <a href="#education" class="nav-link" id="nav-link-education">Education</a>
+        <a href="#internships" class="nav-link" id="nav-link-internships">Internships</a>
+        <a href="#skills" class="nav-link" id="nav-link-skills">Skills</a>
+        <a href="#projects" class="nav-link" id="nav-link-projects">Projects</a>
+        <a href="#contact" class="nav-link" id="nav-link-contact">Contact</a>
+      </nav>
+      
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle-btn" aria-label="Toggle Theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button class="menu-toggle" id="menu-toggle-btn" aria-label="Toggle Mobile Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       HERO SECTION
+       ========================================================================== -->
+  <section class="hero section" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content reveal-left">
+        <span class="hero-tag">Welcome to my space</span>
+        <h1 class="hero-title" id="main-heading">Hello, I'm <br><span>Keerthi Vasan S</span></h1>
+        <div class="hero-subtitle">
+          <span id="typed-text"></span><span class="typing-cursor"></span>
+        </div>
+        <p class="hero-description">
+          Motivated Electronics and Communication Engineering student with strong problem-solving skills and hands-on experience in signal processing, programming, and technical validation.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary" id="hero-btn-work">
+            <span>View Work</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="#contact" class="btn btn-secondary" id="hero-btn-contact">
+            <span>Contact Me</span>
+            <i class="fa-regular fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="hero-visual reveal-right">
+        <div class="avatar-container" id="avatar-wrapper">
+          <img src="profile.png" alt="Keerthi Vasan S Profile Photo" class="avatar-img">
+          <div class="floating-decor decor-1" aria-hidden="true">
+            <i class="fa-solid fa-microchip"></i>
+          </div>
+          <div class="floating-decor decor-2" aria-hidden="true">
+            <i class="fa-solid fa-bolt"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       ABOUT ME SECTION
+       ========================================================================== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Biography</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+      
+      <div class="about-grid">
+        <div class="about-details reveal-left">
+          <h3 style="font-size: 1.8rem; margin-bottom: 1rem;">Who I Am</h3>
+          <p class="about-p">
+            I am currently pursuing my Bachelor of Engineering in Electronics and Communication Engineering at <strong>Vel Tech Multi Tech Engineering College</strong>. Driven by curiosity about how signal data and hardware connect, I focus heavily on blending mathematical analysis with practical microcontroller prototyping.
+          </p>
+          <div class="highlight-box">
+            "Applying academic foundations to design algorithms and system models that solve tangible engineering challenges."
+          </div>
+          <p class="about-p">
+            Through academic projects and multi-faceted industrial internships, I've consolidated my skills in programming (C and Java), simulation tools like MATLAB, and hardware programming via the Arduino IDE. I thrive in Collaborative teams and enjoy applying fast learning skills.
+          </p>
+          
+          <div class="about-stats">
+            <div class="stat-card glass-card">
+              <div class="stat-number">7.73</div>
+              <div class="stat-label">Current CGPA</div>
+            </div>
+            <div class="stat-card glass-card">
+              <div class="stat-number">3+</div>
+              <div class="stat-label">Internships</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="soft-skills-container reveal-right">
+          <h3 class="soft-skills-title">My Strengths</h3>
+          <div class="soft-skills-grid">
+            <div class="soft-skill-tag">
+              <i class="fa-solid fa-users"></i>
+              <span>Team Collaboration</span>
+            </div>
+            <div class="soft-skill-tag">
+              <i class="fa-solid fa-lightbulb"></i>
+              <span>Problem Solving</span>
+            </div>
+            <div class="soft-skill-tag">
+              <i class="fa-solid fa-shuffle"></i>
+              <span>Adaptability</span>
+            </div>
+            <div class="soft-skill-tag">
+              <i class="fa-solid fa-bolt-lightning"></i>
+              <span>Quick Learning</span>
+            </div>
+            <div class="soft-skill-tag">
+              <i class="fa-solid fa-clock"></i>
+              <span>Time Management</span>
+            </div>
+            <div class="soft-skill-tag">
+              <i class="fa-solid fa-magnifying-glass-chart"></i>
+              <span>Analytical Thinking</span>
+            </div>
+          </div>
+          
+          <div style="margin-top: 1.5rem; text-align: center; width: 100%;">
+            <a href="#" class="btn btn-primary" id="resume-download-btn" download="Keerthi_Vasan_S_Resume.pdf">
+              <i class="fa-solid fa-download"></i>
+              <span>Download Resume</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       EDUCATION TIMELINE
+       ========================================================================== -->
+  <section class="education section" id="education">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Academic Journey</span>
+        <h2 class="section-title">Education</h2>
+      </div>
+      
+      <div class="timeline">
+        <!-- BE Degree -->
+        <div class="timeline-item reveal">
+          <div class="timeline-card glass-card">
+            <div class="timeline-date">2023 – 2027</div>
+            <h3 class="timeline-degree">Bachelor of Engineering (ECE)</h3>
+            <p class="timeline-inst">Vel Tech Multi Tech Engineering College</p>
+            <div class="timeline-result">CGPA: 7.73</div>
+          </div>
+        </div>
+
+        <!-- HSC Degree -->
+        <div class="timeline-item reveal">
+          <div class="timeline-card glass-card">
+            <div class="timeline-date">2022 – 2023</div>
+            <h3 class="timeline-degree">Higher Secondary Certificate (HSC)</h3>
+            <p class="timeline-inst">Indian Matric Higher Secondary School, Dharmapuri</p>
+            <div class="timeline-result">Score: 81.5%</div>
+          </div>
+        </div>
+
+        <!-- SSLC Degree -->
+        <div class="timeline-item reveal">
+          <div class="timeline-card glass-card">
+            <div class="timeline-date">2020 – 2021</div>
+            <h3 class="timeline-degree">Secondary School Leaving Certificate (SSLC)</h3>
+            <p class="timeline-inst">Indian Matric Higher Secondary School, Dharmapuri</p>
+            <div class="timeline-result">Status: Passed</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       INTERNSHIPS SECTION
+       ========================================================================== -->
+  <section class="internships section" id="internships">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Industry Exposure</span>
+        <h2 class="section-title">Internships</h2>
+      </div>
+      
+      <div class="internships-grid">
+        <!-- Internship 1 -->
+        <div class="internship-card glass-card reveal">
+          <div class="internship-header">
+            <div>
+              <h3 class="internship-company">Qbits Lab</h3>
+              <span class="internship-date">Dec 2024</span>
+            </div>
+            <div class="internship-icon">
+              <i class="fa-solid fa-cubes"></i>
+            </div>
+          </div>
+          <div class="internship-desc">
+            <i class="fa-solid fa-chevron-right"></i>
+            <span>Gained direct exposure to industry-standard electronics development workflows.</span>
+          </div>
+          <div class="internship-desc">
+            <i class="fa-solid fa-chevron-right"></i>
+            <span>Studied structured project coordination and testing processes.</span>
+          </div>
+        </div>
+
+        <!-- Internship 2 -->
+        <div class="internship-card glass-card reveal">
+          <div class="internship-header">
+            <div>
+              <h3 class="internship-company">Vlog</h3>
+              <span class="internship-date">Jun 2025</span>
+            </div>
+            <div class="internship-icon">
+              <i class="fa-solid fa-video"></i>
+            </div>
+          </div>
+          <div class="internship-desc">
+            <i class="fa-solid fa-chevron-right"></i>
+            <span>Participated in technical learning sessions and practical technology assignments.</span>
+          </div>
+          <div class="internship-desc">
+            <i class="fa-solid fa-chevron-right"></i>
+            <span>Researched software-hardware integration methods.</span>
+          </div>
+        </div>
+
+        <!-- Internship 3 -->
+        <div class="internship-card glass-card reveal">
+          <div class="internship-header">
+            <div>
+              <h3 class="internship-company">Virtual Tech Services</h3>
+              <span class="internship-date">Jan 2026</span>
+            </div>
+            <div class="internship-icon">
+              <i class="fa-solid fa-network-wired"></i>
+            </div>
+          </div>
+          <div class="internship-desc">
+            <i class="fa-solid fa-chevron-right"></i>
+            <span>Built awareness of professional corporate environments and design processes.</span>
+          </div>
+          <div class="internship-desc">
+            <i class="fa-solid fa-chevron-right"></i>
+            <span>Collaborated on technical specifications documentation.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       TECHNICAL SKILLS SECTION
+       ========================================================================== -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Technical Arsenal</span>
+        <h2 class="section-title">Skills & Certifications</h2>
+      </div>
+      
+      <div class="skills-grid">
+        <!-- Programming & Simulation Column -->
+        <div class="skills-column reveal-left">
+          <h3 class="skills-column-title">Hardware & Programming</h3>
+          
+          <!-- C Programming -->
+          <div class="skill-bar-container">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fa-solid fa-code"></i> C Programming</span>
+              <span class="skill-percent" id="skill-val-c">85%</span>
+            </div>
+            <div class="progress-track">
+              <div class="progress-fill" data-percent="85%" id="skill-fill-c"></div>
+            </div>
+          </div>
+
+          <!-- MATLAB -->
+          <div class="skill-bar-container">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fa-solid fa-chart-line"></i> MATLAB</span>
+              <span class="skill-percent" id="skill-val-matlab">80%</span>
+            </div>
+            <div class="progress-track">
+              <div class="progress-fill" data-percent="80%" id="skill-fill-matlab"></div>
+            </div>
+          </div>
+
+          <!-- Arduino IDE -->
+          <div class="skill-bar-container">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fa-solid fa-microchip"></i> Arduino IDE / Prototyping</span>
+              <span class="skill-percent" id="skill-val-arduino">75%</span>
+            </div>
+            <div class="progress-track">
+              <div class="progress-fill" data-percent="75%" id="skill-fill-arduino"></div>
+            </div>
+          </div>
+
+          <!-- Basic Java -->
+          <div class="skill-bar-container">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fa-brands fa-java"></i> Basic Java</span>
+              <span class="skill-percent" id="skill-val-java">65%</span>
+            </div>
+            <div class="progress-track">
+              <div class="progress-fill" data-percent="65%" id="skill-fill-java"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dev Tools & Work Methods Column -->
+        <div class="skills-column reveal-right">
+          <h3 class="skills-column-title">Tools & Methodologies</h3>
+
+          <!-- VS Code / Git -->
+          <div class="skill-bar-container">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fa-brands fa-github"></i> VS Code & GitHub</span>
+              <span class="skill-percent" id="skill-val-git">80%</span>
+            </div>
+            <div class="progress-track">
+              <div class="progress-fill" data-percent="80%" id="skill-fill-git"></div>
+            </div>
+          </div>
+
+          <!-- Research Skills -->
+          <div class="skill-bar-container">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fa-solid fa-magnifying-glass"></i> Technical Research</span>
+              <span class="skill-percent" id="skill-val-research">85%</span>
+            </div>
+            <div class="progress-track">
+              <div class="progress-fill" data-percent="85%" id="skill-fill-research"></div>
+            </div>
+          </div>
+
+          <!-- Presentation Preparation -->
+          <div class="skill-bar-container">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fa-solid fa-chalkboard-user"></i> Presentation & Pitching</span>
+              <span class="skill-percent" id="skill-val-pres">80%</span>
+            </div>
+            <div class="progress-track">
+              <div class="progress-fill" data-percent="80%" id="skill-fill-pres"></div>
+            </div>
+          </div>
+
+          <!-- Technical Documentation -->
+          <div class="skill-bar-container">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fa-solid fa-file-signature"></i> Technical Writing</span>
+              <span class="skill-percent" id="skill-val-doc">85%</span>
+            </div>
+            <div class="progress-track">
+              <div class="progress-fill" data-percent="85%" id="skill-fill-doc"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certifications Sub-grid -->
+      <div style="margin-top: 5rem;">
+        <h3 class="skills-column-title reveal" style="display: block; text-align: center; margin-bottom: 3rem;">Credentials</h3>
+        <div class="certs-grid">
+          <!-- Cert 1 -->
+          <div class="cert-card glass-card reveal">
+            <div class="cert-icon">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <h4 class="cert-title">C Programming 101</h4>
+            <span class="cert-org">Springboard</span>
+          </div>
+
+          <!-- Cert 2 -->
+          <div class="cert-card glass-card reveal">
+            <div class="cert-icon">
+              <i class="fa-solid fa-wave-square"></i>
+            </div>
+            <h4 class="cert-title">MATLAB Onramp</h4>
+            <span class="cert-org">MathWorks</span>
+          </div>
+
+          <!-- Cert 3 -->
+          <div class="cert-card glass-card reveal">
+            <div class="cert-icon">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <h4 class="cert-title">MATLAB Machine Learning Onramp</h4>
+            <span class="cert-org">MathWorks</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       PROJECTS SECTION (SHOWCASE WITH FFT WAVE SIMULATOR)
+       ========================================================================== -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Academic Projects</span>
+        <h2 class="section-title">My Work</h2>
+      </div>
+      
+      <div class="projects-container">
+        <!-- Project Card -->
+        <div class="project-card glass-card reveal">
+          <div class="project-details">
+            <span class="project-tag">DSP / Matlab</span>
+            <h3 class="project-title">Real-Time Spectrum Analyzer Using FFT</h3>
+            <p class="project-desc">
+              Designed and implemented a spectrum analysis system using Fast Fourier Transform (FFT) techniques in MATLAB. The system processes real-time signal inputs, filters noise, and computes frequency-domain metrics to output live visualization displays.
+            </p>
+            <div class="project-tech">
+              <span class="tech-badge">MATLAB</span>
+              <span class="tech-badge">FFT Algorithms</span>
+              <span class="tech-badge">Signal Processing</span>
+              <span class="tech-badge">UI Visualization</span>
+            </div>
+          </div>
+          
+          <!-- FFT Interactive Dynamic Display Canvas -->
+          <div class="project-visual">
+            <span class="fft-label">FFT MONITOR - CH1</span>
+            <div class="fft-grid-lines"></div>
+            <canvas class="fft-canvas" id="fft-simulation-canvas"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CONTACT SECTION
+       ========================================================================== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Get In Touch</span>
+        <h2 class="section-title">Contact</h2>
+      </div>
+      
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <h3 style="font-size: 1.8rem; margin-bottom: 1rem;">Let's Connect</h3>
+          <p class="contact-intro">
+            I'm currently seeking internships, project sponsorships, and early career roles in electronics design, embedded systems, and MATLAB programming. Feel free to reach out directly.
+          </p>
+          
+          <div class="contact-methods">
+            <!-- Email -->
+            <div class="contact-method-card glass-card" style="padding: 1rem; border-radius: var(--border-radius-md); margin-bottom: 1rem;">
+              <div class="contact-method-icon">
+                <i class="fa-regular fa-envelope"></i>
+              </div>
+              <div class="contact-method-details">
+                <h4>Email</h4>
+                <p><a href="mailto:skeerthivasan568@gmail.com" id="email-link">skeerthivasan568@gmail.com</a></p>
+              </div>
+            </div>
+
+            <!-- Phone -->
+            <div class="contact-method-card glass-card" style="padding: 1rem; border-radius: var(--border-radius-md); margin-bottom: 1rem;">
+              <div class="contact-method-icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="contact-method-details">
+                <h4>Phone</h4>
+                <p><a href="tel:+919345651634" id="phone-link">+91 9345651634</a></p>
+              </div>
+            </div>
+
+            <!-- Location -->
+            <div class="contact-method-card glass-card" style="padding: 1rem; border-radius: var(--border-radius-md);">
+              <div class="contact-method-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-method-details">
+                <h4>Location</h4>
+                <p>Tamil Nadu, India</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Social Profiles -->
+          <div class="social-links">
+            <a href="https://github.com/keerthivasans" target="_blank" rel="noopener noreferrer" class="social-icon" id="github-link" aria-label="GitHub Profile">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/s-keerthivasan" target="_blank" rel="noopener noreferrer" class="social-icon" id="linkedin-link" aria-label="LinkedIn Profile">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Dynamic Form -->
+        <div class="reveal-right">
+          <form class="contact-form glass-card" id="contact-form" novalidate>
+            <div class="form-group">
+              <input type="text" id="contact-name" class="form-input" placeholder="Your Name" required>
+              <label for="contact-name" class="form-label">Name</label>
+            </div>
+            
+            <div class="form-group">
+              <input type="email" id="contact-email" class="form-input" placeholder="Your Email" required>
+              <label for="contact-email" class="form-label">Email Address</label>
+            </div>
+
+            <div class="form-group">
+              <input type="text" id="contact-subject" class="form-input" placeholder="Subject">
+              <label for="contact-subject" class="form-label">Subject</label>
+            </div>
+
+            <div class="form-group">
+              <textarea id="contact-message" class="form-input" placeholder="Your Message" required></textarea>
+              <label for="contact-message" class="form-label">Message</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary" id="form-submit-btn" style="border: none;">
+              <span>Send Message</span>
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+            
+            <div class="form-message" id="form-message-banner"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="logo">
+        <span class="logo-icon">KV</span>
+        <span>Keerthi Vasan S</span>
+      </div>
+      <p class="footer-text">
+        &copy; 2026 Keerthi Vasan S. Developed with <span>♥</span> & engineering precision.
+      </p>
+      
+      <button class="back-to-top" id="back-to-top-btn" aria-label="Back to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+    </div>
+  </footer>
+
+  <!-- Javascript File -->
+  <script src="script.js"></script>
+</body>
+</html>
